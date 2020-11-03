@@ -9,6 +9,7 @@ import com.wcc.whatdoilearn.R
 import com.wcc.whatdoilearn.entities.LearnedItem
 import com.wcc.whatdoilearn.view.LearnedItemsAdapter.LearnedItemViewHolder
 
+
 class LearnedItemsAdapter: RecyclerView.Adapter<LearnedItemViewHolder>() {
     var data = listOf<LearnedItem>()
         set(value) {
